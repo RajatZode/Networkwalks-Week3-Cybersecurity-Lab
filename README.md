@@ -25,13 +25,15 @@ The PDF used for this module was:
 ```text
 My-Locked-PDF1.pdf
 ```
+
 Step 1 — Verify John the Ripper
 
 John the Ripper was executed in Kali Linux to verify that the tool was installed and available for password-cracking operations.
 
 Command
 john
-Screenshot 01
+![John the Ripper](Screenshots/01-john-version.png)
+
 
 Step 2 — Extract PDF Hash
 
@@ -43,7 +45,8 @@ $pdf$
 
 The extracted hash was used as the input for John the Ripper.
 
-Screenshot 02
+![John the Ripper](Screenshots/02-pdf-hash-extracted.png)
+
 
 Step 3 — Create hash1.txt
 
@@ -53,7 +56,8 @@ hash1.txt
 
 The file contained the complete $pdf$... hash required by John the Ripper.
 
-Screenshot 03
+![John the Ripper](Screenshots/03-hash1-txt.png)
+
 
 Step 4 — John the Ripper Hash Loading
 
@@ -63,7 +67,9 @@ John successfully recognized the PDF hash format and loaded the password hash.
 
 Command
 john /home/kali/Desktop/hash1.txt
-Screenshot 04
+
+![John the Ripper](Screenshots/04-johnny-open.png)
+
 
 Step 5 — Password Cracking
 
@@ -75,7 +81,8 @@ password1
 
 The cracking session completed successfully.
 
-Screenshot 05
+![John the Ripper](Screenshots/05-password-cracked.png)
+
 
 Step 6 — Open the Protected PDF
 
@@ -85,10 +92,12 @@ My-Locked-PDF1.pdf
 
 The PDF opened successfully and the contents/flag were visible.
 
-Screenshot 06
+![John the Ripper](Screenshots/06-pdf-unlocked.png)
 
-Module 2 — Password Cracking with Networkwalks Tools
-Objective
+
+# Module 2 — Password Cracking with Networkwalks Tools
+
+## Objective
 
 The objective of this module was to use Networkwalks' online tools to extract a crackable PDF hash and recover the password using the provided Password Cracker.
 
