@@ -111,6 +111,7 @@ The PDF used for this module was:
 
 My-Locked-PDF2.pdf
 
+
 The workflow consisted of:
 
 Locked PDF
@@ -124,25 +125,34 @@ Networkwalks Password Cracker
 Recovered Password
      ↓
 Unlocked PDF
+
+
 Step 1 — PDF Hash Extraction
+
 
 The locked PDF was uploaded to the Networkwalks Hash Calculator.
 
 The tool generated a crackable PDF hash beginning with:
 
 $pdf$
-Screenshot 07
+
+![John the Ripper](Screenshots/07-hash-calculator.png)
+
 
 Step 2 — Password Cracking
+
 
 The extracted PDF hash was submitted to the Networkwalks Password Cracker.
 
 The tool successfully recovered the password:
 
 password1
-Screenshot 08
+
+![John the Ripper](Screenshots/08-password-cracker-hash.png)
+
 
 Step 3 — Open the Protected PDF
+
 
 The recovered password was used to open:
 
@@ -150,7 +160,8 @@ My-Locked-PDF2.pdf
 
 The PDF opened successfully and the contents/flag were visible.
 
-Screenshot 09
+![John the Ripper](Screenshots/09-pdf2-unlocked.png)
+
 
 Additional Practice — Locked PDF 3
 
@@ -170,29 +181,37 @@ Recovered Password
  ↓
 Unlocked PDF
 
+
 This additional activity was performed for further practical experience and is separate from the two required modules.
+
 
 Step 1 — PDF3 Hash Extraction
 
+
 The third locked PDF was uploaded to the Networkwalks Hash Calculator and a crackable PDF hash was generated.
 
-Screenshot 10
+![John the Ripper](Screenshots/10-pdf3-hash-calculator.png)
+
 
 Step 2 — PDF3 Password Cracking
+
 
 The extracted hash was submitted to the Networkwalks Password Cracker.
 
 The password was successfully recovered.
 
-Screenshot 11
+![John the Ripper](Screenshots/11-pdf3-password-cracker.png)
+
 
 Step 3 — Open PDF3
+
 
 The recovered password was used to open the third protected PDF.
 
 The PDF opened successfully and the contents/flag were visible.
 
-Screenshot 12
+![John the Ripper](Screenshots/12-pdf3-unlocked.png)
+
 
 Tools Used
 Module 1
