@@ -32,6 +32,7 @@ John the Ripper was executed in Kali Linux to verify that the tool was installed
 
 Command
 john
+
 ![John the Ripper](Screenshots/01-john-version.png)
 
 
@@ -45,6 +46,7 @@ $pdf$
 
 The extracted hash was used as the input for John the Ripper.
 
+
 ![John the Ripper](Screenshots/02-pdf-hash-extracted.png)
 
 
@@ -55,6 +57,7 @@ The extracted PDF hash was saved into a text file named:
 hash1.txt
 
 The file contained the complete $pdf$... hash required by John the Ripper.
+
 
 ![John the Ripper](Screenshots/03-hash1-txt.png)
 
@@ -67,6 +70,7 @@ John successfully recognized the PDF hash format and loaded the password hash.
 
 Command
 john /home/kali/Desktop/hash1.txt
+
 
 ![John the Ripper](Screenshots/04-johnny-open.png)
 
@@ -81,6 +85,7 @@ password1
 
 The cracking session completed successfully.
 
+
 ![John the Ripper](Screenshots/05-password-cracked.png)
 
 
@@ -91,6 +96,7 @@ The recovered password was used to open the protected PDF:
 My-Locked-PDF1.pdf
 
 The PDF opened successfully and the contents/flag were visible.
+
 
 ![John the Ripper](Screenshots/06-pdf-unlocked.png)
 
