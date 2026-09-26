@@ -213,42 +213,53 @@ The PDF opened successfully and the contents/flag were visible.
 ![John the Ripper](Screenshots/12-pdf3-unlocked.png)
 
 
-Tools Used
-Module 1
-Kali Linux
-John the Ripper
-Terminal
-PDF hash extraction
-hash1.txt
-Module 2
-Networkwalks Hash Calculator
-Networkwalks Password Cracker
-PDF password recovery
-Additional Practice
-Networkwalks Hash Calculator
-Networkwalks Password Cracker
-PDF password recovery
-Skills Practiced
+# Tools Used
+
+## Module 1 — John the Ripper
+
+- Kali Linux
+- John the Ripper
+- Terminal
+- PDF Hash Extraction
+- `hash1.txt`
+
+## Module 2 — Networkwalks Password Cracker
+
+- Networkwalks Hash Calculator
+- Networkwalks Password Cracker
+- PDF Password Recovery
+
+## Additional Practice — PDF3
+
+- Networkwalks Hash Calculator
+- Networkwalks Password Cracker
+- PDF Password Recovery
+
+
+# Skills Practiced
 
 Through these practical exercises, I gained hands-on experience with:
 
-Password cracking fundamentals
-PDF password hash extraction
-Hash file preparation
-John the Ripper
-Command-line password cracking
-Password hash identification
-Wordlist-based password cracking
-Online hash calculation
-Password-cracking workflows
-Working with encrypted PDF files
-Password recovery and verification
-Kali Linux command-line tools
-Practical cybersecurity lab documentation
-Practical Workflow
+- Password cracking fundamentals
+- PDF password hash extraction
+- Hash file preparation
+- John the Ripper
+- Command-line password cracking
+- Password hash identification
+- Wordlist-based password cracking
+- Online hash calculation
+- Password-cracking workflows
+- Working with encrypted PDF files
+- Password recovery and verification
+- Kali Linux command-line tools
+- Practical cybersecurity lab documentation
+
+
+# Practical Workflow
 
 The overall workflow practiced during Week 3 can be summarized as:
 
+```text
 Identify Protected PDF
         ↓
 Extract Crackable Hash
@@ -264,36 +275,77 @@ Recover Password
 Verify Password
         ↓
 Open Protected PDF
-Evidence
+```
 
-All screenshots from the Week 3 practical work are stored together in the Screenshots folder.
 
-Module 1
+# Evidence
 
-Screenshots 01–06
+All screenshots from the Week 3 practical work are stored together in the `Screenshots` folder.
 
-Module 2
+## Module 1 — John the Ripper
 
-Screenshots 07–09
+**Screenshots 01–06**
 
-Additional Practice — PDF3
+Evidence includes:
 
-Screenshots 10–12
+- John the Ripper setup
+- PDF hash extraction
+- Hash file preparation
+- Hash loading
+- Password cracking
+- Successfully unlocked PDF
+
+---
+
+## Module 2 — Networkwalks Password Cracker
+
+**Screenshots 07–09**
+
+Evidence includes:
+
+- PDF2 hash extraction
+- Password cracking using the Networkwalks Password Cracker
+- Successfully unlocked PDF2
+
+---
+
+## Additional Practice — PDF3
+
+**Screenshots 10–12**
+
+Evidence includes:
+
+- PDF3 hash extraction
+- Password cracking using the Networkwalks Password Cracker
+- Successfully unlocked PDF3
 
 The screenshot numbering is continuous across the complete Week 3 submission so that all practical evidence can be reviewed together.
 
-Conclusion
 
-Week 3 provided hands-on practice with password-cracking workflows using both John the Ripper and Networkwalks' online tools.
+# Conclusion
+
+Week 3 provided hands-on practice with practical **PDF password-cracking workflows** using both **John the Ripper** and **Networkwalks' online tools**.
 
 The practical exercises involved extracting PDF hashes, preparing and loading hashes, performing password-cracking operations, recovering passwords, and verifying the recovered passwords by successfully opening protected PDF files.
 
 The additional PDF3 exercise provided further practice with the same workflow and helped reinforce the concepts covered during the required modules.
 
-Week 3 Submission Summary
-Section	Evidence
-Module 1 — John the Ripper	Screenshots 01–06
-Module 2 — Networkwalks Tools	Screenshots 07–09
-Additional Practice — PDF3	Screenshots 10–12
+
+# Week 3 Submission Summary
+
+| Section | Evidence |
+|---|---|
+| **Module 1 — John the Ripper** | Screenshots 01–06 |
+| **Module 2 — Networkwalks Tools** | Screenshots 07–09 |
+| **Additional Practice — PDF3** | Screenshots 10–12 |
+| **Total Screenshots** | **12** |
+
+---
+
+## Week 3 Internship Submission
+
+**Networkwalks Cybersecurity Internship**
+
+**Practical Cybersecurity Lab — Week 3**
 Total Screenshots	12
 
